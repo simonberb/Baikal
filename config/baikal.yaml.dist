@@ -13,10 +13,10 @@ database:
     encryption_key: 5d3f0fa0192e3058ea70f1bb20924add
     backend: 'mysql'
     sqlite_file: "absolute/path/to/Specific/db/db.sqlite"
-    mysql_host: 'localhost'
-    mysql_dbname: 'baikal'
-    mysql_username: 'baikal'
-    mysql_password: 'baikal'
+    mysql_host: 'baikalproject-server.mysql.database.azure.com'
+    mysql_dbname: 'baikalproject-database'
+    mysql_username: 'plnywjroab'
+    mysql_password: 'vrq$FK9sm4dzAyBh'
     pgsql_host: 'localhost'
     pgsql_dbname: 'baikal'
     pgsql_username: 'baikal'
