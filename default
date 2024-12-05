@@ -17,10 +17,10 @@ server {
         index  index.php index.html index.htm hostingstart.html;
     }
 
-#    location ~ /(\.ht|Core|Specific|config) {
-#      deny all;
-#      return 404;
-#    }
+    location ~ /(\.ht|Core|Specific|config) {
+      deny all;
+      return 404;
+    }
 
     # redirect server error pages to the static page /50x.html
     #
