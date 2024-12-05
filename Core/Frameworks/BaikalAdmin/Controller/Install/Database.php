@@ -39,10 +39,10 @@ class Database extends \Flake\Core\Controller {
             require_once PROJECT_PATH_SPECIFIC . "config.system.php";
             $this->oModel->set('sqlite_file', PROJECT_SQLITE_FILE);
             $this->oModel->set('backend', PROJECT_DB_BACKEND);
-            $this->oModel->set('mysql_host', PROJECT_DB_MYSQL_HOST);
-            $this->oModel->set('mysql_dbname', PROJECT_DB_MYSQL_DBNAME);
-            $this->oModel->set('mysql_username', PROJECT_DB_MYSQL_USERNAME);
-            $this->oModel->set('mysql_password', PROJECT_DB_MYSQL_PASSWORD);
+            $this->oModel->set('AZURE_MYSQL_HOST', PROJECT_DB_MYSQL_HOST);
+            $this->oModel->set('AZURE_MYSQL_DBNAME', PROJECT_DB_MYSQL_DBNAME);
+            $this->oModel->set('AZURE_MYSQL_USERNAME', PROJECT_DB_MYSQL_USERNAME);
+            $this->oModel->set('AZURE_MYSQL_PASSWORD', PROJECT_DB_MYSQL_PASSWORD);
             $this->oModel->set('pgsql_host', PROJECT_DB_PGSQL_HOST);
             $this->oModel->set('pgsql_dbname', PROJECT_DB_PGSQL_DBNAME);
             $this->oModel->set('pgsql_username', PROJECT_DB_PGSQL_USERNAME);
